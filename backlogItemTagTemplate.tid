@@ -1,0 +1,6 @@
+created: 20170523051042473
+modified: 20170602053555494
+tags: 
+title: $:/plugins/sbaxenda/backlog-tools/backlogItemTagTemplate
+
+|!priority|{{!!priority}}|!state|<$checkbox tag="reject"> reject</$checkbox>|<$checkbox tag="hold"> hold</$checkbox>|<$checkbox tag="done"> complete</$checkbox>|

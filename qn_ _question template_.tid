@@ -1,0 +1,12 @@
+created: 20170127031205233
+modified: 20170127031422534
+status: {{s-cross}}
+tags: question
+title: $:/plugins/sbaxenda/backlog-tools/qn: <question template>
+
+|!Status|{{!!status}}|
+---
+''Line of Enquiry:'' question(s)
+
+---
+''Response:'' response

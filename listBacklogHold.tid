@@ -1,0 +1,20 @@
+created: 20170223081113110
+modified: 20170223081425976
+tags: 
+title: $:/plugins/sbaxenda/backlog-tools/listBacklogHold
+type: 
+
+\define dumpBacklog()
+<table>
+<th>Priority</th><th>Task</th>
+<$list filter={{$:/plugins/sbaxenda/backlog-tools/filtBacklogHold}}>
+<$macrocall $name="backlogRow"  />
+</$list>
+</table>
+\end
+
+\define backlogRow()
+<tr><td align="center">{{!!priority}}</td><td><$link to=<<currentTiddler>>><$view field=title/></$link></td></tr>
+\end
+
+<<dumpBacklog>>

@@ -1,0 +1,11 @@
+created: 20160726075614545
+modified: 20160726075624509
+tags: 
+title: $:/plugins/sbaxenda/backlog-tools/listBacklogPlain
+type: application/x-tiddler
+
+<ol>
+<$list filter={{filtBacklog}}>
+<li>[priority: <$view field=priority/>] - <$link to=<<currentTiddler>>><$view field=title/></$link> </li>
+</$list>
+</ol>

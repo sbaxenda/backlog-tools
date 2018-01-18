@@ -1,0 +1,20 @@
+created: 20160627225102068
+modified: 20170523070239532
+tags: TableOfContents
+title: Backlog
+type: application/x-tiddler
+
+|[[entry template|$:/plugins/sbaxenda/backlog-tools/<empty backlog marker>]]|
+
+!!Open (x<$count filter={{$:/plugins/sbaxenda/backlog-tools/filtBacklog}}/>)
+{{$:/plugins/sbaxenda/backlog-tools/listBacklog}}
+<br>
+
+----
+!!On Hold (x<$count filter={{$:/plugins/sbaxenda/backlog-tools/filtBacklogHold}}/>)
+{{$:/plugins/sbaxenda/backlog-tools/listBacklogHold}}
+
+----
+!!Completions
+See [[Backlog complete]]
+

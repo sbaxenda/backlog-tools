@@ -1,0 +1,29 @@
+created: 20160908061858419
+modified: 20160914074251684
+tags: $:/tags/Stylesheet
+title: $:/plugins/sbaxenda/backlog-tools/localStyleSheet
+type: text/css
+
+/* Simple text colour modifiers */
+.red {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.orange {
+  color: orange;
+}
+
+.green {
+  color: green;
+}
+
+/* green border - *interference problem with subsequent wiki text (the later text took the border) */
+.green-border {
+  border-style:solid;
+  border-width: 1px;
+  border-color:green;
+}

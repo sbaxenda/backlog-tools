@@ -1,0 +1,7 @@
+created: 20160628234227650
+modified: 20170525054505090
+tags: 
+title: $:/plugins/sbaxenda/backlog-tools/filtBacklog
+type: application/x-tiddler
+
+[tag[backlog]!tag[done]!tag[hold]!tag[reject]nsort[priority]] -[[$:/plugins/sbaxenda/backlog-tools/<empty backlog marker>]]

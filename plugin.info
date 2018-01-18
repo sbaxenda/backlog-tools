@@ -1,0 +1,10 @@
+{
+        "title": "$:/plugins/sbaxenda/backlog-tools",
+        "description": "Task backlog tracking tools",
+        "author": "Stephen Baxendale",
+        "version": "0.0.1",
+        "core-version": ">=5.0.8",
+        "source": "https://github.com/sbaxenda/backlog-tools",
+        "plugin-type": "plugin",
+        "list": "readme"
+}

@@ -1,0 +1,16 @@
+caption: Contents
+created: 20160524025008870
+creator: SteveBax
+list: Backlog Journal
+list-after: $:/core/ui/SideBar/Open
+modified: 20160819021611802
+modifier: SteveBax
+tags: $:/tags/SideBar
+title: $:/plugins/sbaxenda/backlog-tools/TableOfContents
+type: application/x-tiddler
+
+<div class="tc-table-of-contents">
+
+<<toc-selective-expandable 'TableOfContents'>>
+
+</div>

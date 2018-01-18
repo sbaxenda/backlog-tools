@@ -1,0 +1,13 @@
+created: 20161019031331483
+modified: 20161019032630952
+status: {{s-cross}}
+tags: $:/plugins/sbaxenda/backlog-tools/actionItem
+title: $:/plugins/sbaxenda/backlog-tools/<actionItem template>
+caption: actionItem template
+
+|!Status|{{!!status}}|
+|!Actionee|Stephen Baxendale|
+---
+''Action:'' action
+
+''Response:'' response

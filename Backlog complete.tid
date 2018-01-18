@@ -1,0 +1,11 @@
+created: 20160925192316436
+modified: 20170525055005859
+tags: 
+title: Backlog complete
+
+----
+!!Done (x<$count filter={{$:/plugins/sbaxenda/backlog-tools/filtBacklogDone}}/>)
+{{$:/plugins/sbaxenda/backlog-tools/listBacklogDone}}
+
+!!Rejected (x<$count filter={{$:/plugins/sbaxenda/backlog-tools/filtBacklogReject}}/>)
+{{$:/plugins/sbaxenda/backlog-tools/listBacklogReject}}

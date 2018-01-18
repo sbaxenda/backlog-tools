@@ -1,0 +1,7 @@
+created: 20170223080918745
+modified: 20170525055211437
+tags: 
+title: $:/plugins/sbaxenda/backlog-tools/filtBacklogHold
+type: 
+
+[tag[backlog]tag[hold]!tag[done]!tag[reject]nsort[priority]]
