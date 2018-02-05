@@ -1,0 +1,9 @@
+created: 20180205103039961
+modified: 20180205105154284
+tags: 
+title: $:/plugins/sbaxenda/backlog-tools/backlog task button
+
+<$button class="tc-btn-invisible tc-tiddlylink">
+<$action-createtiddler $basetitle="Task" tags="backlog" priority={{$:/plugins/sbaxenda/backlog-tools/<empty backlog marker>!!priority}} text={{$:/plugins/sbaxenda/backlog-tools/<empty backlog marker>}} />
+New Item
+</$button> 
