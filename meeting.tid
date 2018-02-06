@@ -1,11 +1,13 @@
 caption: Meetings
 created: 20161010064042203
-modified: 20161024080248611
+modified: 20180206101643109
 tags: TableOfContents
-title: $:/plugins/sbaxenda/backlog-tools/meeting
+title: meeting
+
+|{{$:/plugins/sbaxenda/backlog-tools/new meeting button}}|
 
 <div class="tc-table-of-contents">
 
-<<toc-selective-expandable 'meeting''>>
+<<toc-selective-expandable 'meeting'>>
 
 </div>

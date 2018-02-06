@@ -1,0 +1,9 @@
+created: 20180206101019608
+modified: 20180206101306628
+tags: 
+title: $:/plugins/sbaxenda/backlog-tools/new action item button
+
+<$button class="tc-btn-invisible tc-tiddlylink">
+<$action-createtiddler $basetitle="AI" tags="actionItem" text={{$:/plugins/sbaxenda/backlog-tools/<actionItem template>}} />
+New Action Item
+</$button> 

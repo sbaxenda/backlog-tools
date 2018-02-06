@@ -1,0 +1,9 @@
+created: 20180206101239904
+modified: 20180206101615687
+tags: 
+title: $:/plugins/sbaxenda/backlog-tools/new meeting button
+
+<$button class="tc-btn-invisible tc-tiddlylink">
+<$action-createtiddler $basetitle="Meeting" tags="meeting" text={{$:/plugins/sbaxenda/backlog-tools/<meeting template>}} />
+New Meeting
+</$button> 

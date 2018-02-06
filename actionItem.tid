@@ -1,6 +1,9 @@
 caption: consolidated Action Items
 created: 20161018022504440
-modified: 20161018022531984
-tags: $:/plugins/sbaxenda/backlog-tools/meeting
-title: $:/plugins/sbaxenda/backlog-tools/actionItem
+modified: 20180206101812052
+tags: meeting
+title: actionItem
 
+|{{$:/plugins/sbaxenda/backlog-tools/new action item button}}|
+
+<<list-links "[tag{!!title}]">>

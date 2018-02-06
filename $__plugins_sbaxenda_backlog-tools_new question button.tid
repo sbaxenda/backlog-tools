@@ -1,0 +1,9 @@
+created: 20180206102006612
+modified: 20180206102158341
+tags: 
+title: $:/plugins/sbaxenda/backlog-tools/new question button
+
+<$button class="tc-btn-invisible tc-tiddlylink">
+<$action-createtiddler $basetitle="qn: " tags="question" text={{$:/plugins/sbaxenda/backlog-tools/qn: <question template>}} />
+New Question
+</$button> 

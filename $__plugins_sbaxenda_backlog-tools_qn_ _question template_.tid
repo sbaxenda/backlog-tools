@@ -1,7 +1,6 @@
 created: 20170127031205233
-modified: 20170127031422534
+modified: 20180206102713904
 status: {{s-cross}}
-tags: question
 title: $:/plugins/sbaxenda/backlog-tools/qn: <question template>
 
 |!Status|{{!!status}}|
