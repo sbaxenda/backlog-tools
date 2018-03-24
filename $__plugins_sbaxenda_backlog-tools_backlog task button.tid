@@ -4,6 +4,7 @@ tags:
 title: $:/plugins/sbaxenda/backlog-tools/backlog task button
 
 <$button class="tc-btn-invisible tc-tiddlylink">
-<$action-createtiddler $basetitle="Task" tags="backlog" priority={{$:/plugins/sbaxenda/backlog-tools/<empty backlog marker>!!priority}} text={{$:/plugins/sbaxenda/backlog-tools/<empty backlog marker>}} />
+<$action-createtiddler $basetitle="Task" tags="backlog" priority={{$:/plugins/sbaxenda/backlog-tools/<empty backlog marker>!!priority}} text={{$:/plugins/sbaxenda/backlog-tools/<empty backlog marker>}} $savetitle="!!last-created" />
+<$action-sendmessage $message="tm-edit-tiddler" $param={{!!last-created}}/>
 New Item
 </$button> 
