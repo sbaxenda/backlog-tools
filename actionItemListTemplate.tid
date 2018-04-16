@@ -1,0 +1,11 @@
+created: 20180416085212731
+modified: 20180416102604122
+tags: 
+title: action-item-list-template
+
+<tr>
+<td><$link to={{!!title}}>{{!!title}} </$link></td>
+<td align="center">{{!!status}}</td>
+<td>{{!!actionee}}</td>
+<td>{{!!meeting}}</td>
+</tr>

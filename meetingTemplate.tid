@@ -1,17 +1,25 @@
 created: 20180206102430160
-modified: 20180206102653087
+modified: 20180416082734888
+revision: 1
 status: {{s-cross}}
 title: $:/plugins/sbaxenda/backlog-tools/<meeting template>
+type: text/vnd.tiddlywiki
 
-|!Topic||
+|!Topic|{{!!title}}|
 |!Date||
 |!Location||
 |!Attendees||
 ---
 
+<<newActionItem meetingName:$(currentTiddler)$>>
+
 !! Agenda
 
 # 
+
+!! Action Items
+
+<<list-links "[tag[actionItem]tag{!!title}]" type:ul >>
 
 !! Minutes
 

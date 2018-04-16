@@ -1,0 +1,16 @@
+created: 20180416085441808
+modified: 20180416091043166
+tags: 
+title: action-item-table
+
+<table>
+<tr>
+  <th>Action</th>
+  <th>Status</th>
+  <th>Actionee</th>
+  <th>Meeting</th>
+</tr>
+  <$list filter="[tag[actionItem]]">
+  {{||action-item-list-template}}
+  </$list>
+</table>
