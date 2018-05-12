@@ -2,7 +2,7 @@
         "title": "$:/plugins/sbaxenda/backlog-tools",
         "description": "Task backlog tracking tools",
         "author": "Stephen Baxendale",
-        "version": "1.2.0",
+        "version": "1.3.0",
         "core-version": ">=5.0.8",
         "source": "https://github.com/sbaxenda/backlog-tools",
         "plugin-type": "plugin",
