@@ -1,6 +1,7 @@
 created: 20180206102430160
-modified: 20180416082734888
-revision: 1
+last-created: 
+modified: 20180512060808014
+revision: 0
 status: {{s-cross}}
 title: $:/plugins/sbaxenda/backlog-tools/<meeting template>
 type: text/vnd.tiddlywiki
@@ -19,7 +20,11 @@ type: text/vnd.tiddlywiki
 
 !! Action Items
 
-<<list-links "[tag[actionItem]tag{!!title}]" type:ul >>
+<ol>
+<$list filter="[tag{!!title}]">
+<li>{{!!status}} <$link to={{!!title}}>{{!!title}} </$link></li>
+</$list>
+</ol>
 
 !! Minutes
 

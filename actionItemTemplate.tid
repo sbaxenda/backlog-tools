@@ -1,14 +1,16 @@
+actionee: Stephen B
 caption: actionItem template
 created: 20161019031331483
-modified: 20180416083332461
-revision: 1
-status: {{s-qn}}
+modified: 20180418143846909
+revision: 0
+status: <$transclude tiddler={{!!status-base}} />
+status-base: s-qn
 title: $:/plugins/sbaxenda/backlog-tools/<actionItem template>
 type: text/vnd.tiddlywiki
 
 |!Meeting|{{!!meeting}}|
-|!Status|{{!!status}}|
-|!Actionee|Stephen Baxendale|
+|!Status|{{!!status}}<<statusSelect>>|
+|!Actionee|<<actioneeSelect>>|
 ---
 ''Action:'' action
 

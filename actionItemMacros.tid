@@ -1,0 +1,30 @@
+created: 20180417161252077
+modified: 20180512062152988
+tags: $:/tags/Macro
+title: $:/plugins/sbaxenda/backlog-tools/actionItemMacros
+type: text/vnd.tiddlywiki
+
+\define newActionItem(meetingName:"Perennial meeting #42")
+
+<$button class="tc-btn-invisible tc-tiddlylink">
+<$action-createtiddler $basetitle="AI" tags="actionItem [[$meetingName$]]" meeting="[[$meetingName$]]" text={{$:/plugins/sbaxenda/backlog-tools/<actionItem template>}} status-base={{$:/plugins/sbaxenda/backlog-tools/<actionItem template>!!status-base}} status={{$:/plugins/sbaxenda/backlog-tools/<actionItem template>!!status}} actionee={{$:/plugins/sbaxenda/backlog-tools/<actionItem template>!!actionee}} $savetitle="!!last-created" />
+New Action Item
+</$button>
+
+\end
+
+\define actioneeSelect(default:"Muzz")
+<$select tiddler=<<currentTiddler>> field='actionee' default=$default$ >
+<$list filter='[tag[person]sort[title]]'>
+<option value=<<currentTiddler>>><$view field='title'/> </option>
+</$list>
+</$select>
+\end
+
+\define statusSelect(default:"s-qn")
+<$select tiddler=<<currentTiddler>> field='status-base' default=$default$ >
+<$list filter='[tag[workState]sort[title]]'>
+<option value=<<currentTiddler>>><$view field='ui-value'/> </option>
+</$list>
+</$select>
+\end
