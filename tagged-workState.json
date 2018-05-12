@@ -5,6 +5,7 @@
         "modified": "20160913231215778",
         "tags": "workState",
         "title": "s-cross",
+        "ui-value": "not-done",
         "type": "application/x-tiddler"
     },
     {
@@ -13,6 +14,7 @@
         "modified": "20160913231144386",
         "tags": "workState",
         "title": "s-tick",
+        "ui-value": "complete",
         "type": "application/x-tiddler"
     },
     {
@@ -21,6 +23,7 @@
         "modified": "20160913231256697",
         "tags": "workState",
         "title": "s-wait",
+        "ui-value": "waiting",
         "type": "application/x-tiddler"
     },
     {
@@ -29,6 +32,7 @@
         "modified": "20180131104346819",
         "tags": "workState",
         "title": "s-qn",
+        "ui-value": "unknown",
         "type": "application/x-tiddler"
     },
     {
@@ -37,6 +41,7 @@
         "modified": "20180131104450187",
         "tags": "workState",
         "title": "s-wip",
+        "ui-value": "wip",
         "type": "application/x-tiddler"
     }
 
