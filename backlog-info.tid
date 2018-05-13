@@ -1,0 +1,14 @@
+created: 20180513055014824
+modified: 20180513061704996
+tags: 
+title: $:/plugins/sbaxenda/backlog-tools/backlog
+
+Backlog tasks can be created via the ''New Item'' button on the [[Backlog]] tiddler (Also located in the contents sidebar tab).
+
+<$transclude tiddler="$:/plugins/sbaxenda/backlog-tools/backlogItemTagTemplate" mode="block"/>
+
+The task template brings priority and state tracking to the new item:
+
+# Set the priority field to represent relative importance of the task
+
+# Use the state radio buttons to track progress on the task

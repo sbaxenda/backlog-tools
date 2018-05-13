@@ -1,0 +1,6 @@
+created: 20180513055014824
+modified: 20180513055016810
+tags: 
+title: $:/plugins/sbaxenda/backlog-tools/meetings
+
+* Action Item assignee selection list is populated by tiddlers tagged {{person||$:/core/ui/TagTemplate}}

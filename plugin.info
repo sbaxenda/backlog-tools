@@ -6,5 +6,5 @@
         "core-version": ">=5.0.8",
         "source": "https://github.com/sbaxenda/backlog-tools",
         "plugin-type": "plugin",
-        "list": "readme"
+        "list": "readme backlog meetings"
 }
