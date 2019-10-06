@@ -3,8 +3,13 @@ modified: 20180205105154284
 tags: 
 title: $:/plugins/sbaxenda/backlog-tools/backlog task button
 
+\define buildTextRef()
+$:/backlog-task-tools/newBacklogTask/lastCreated!!last-created
+\end
+
 <$button class="tc-btn-invisible tc-tiddlylink">
-<$action-createtiddler $basetitle="Task" tags="backlog" priority={{$:/plugins/sbaxenda/backlog-tools/<empty backlog marker>!!priority}} text={{$:/plugins/sbaxenda/backlog-tools/<empty backlog marker>}} $savetitle="!!last-created" />
-<$action-sendmessage $message="tm-edit-tiddler" $param={{!!last-created}}/>
+<$action-createtiddler $basetitle="Task" tags="backlog" priority={{$:/plugins/sbaxenda/backlog-tools/<empty backlog marker>!!priority}} text={{$:/plugins/sbaxenda/backlog-tools/<empty backlog marker>}} $savetitle=<<buildTextRef>> />
+<$action-sendmessage $message="tm-edit-tiddler" $param={{$:/backlog-task-tools/newBacklogTask/lastCreated!!last-created}} />
+
 New Item
-</$button> 
+</$button>
